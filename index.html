@@ -7,69 +7,81 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
   <title>Superfood | Goji berries</title>
 </head>
 
 <body>
   <main>
     <div id="full-view">
+      <header class="text-white"><p>Superfood</p></header>
       <section id="product">
-        <h1>Superfood</h1>
-        <h1>Life is good, life is Goji.</h1>
+        <div id="claim">
+          <h1>Life is good, life is Goji.</h1>
+          <p class="pl-4">Our goji berries are the perfect energy source to mantaining your long-term wellness.</p>
+        </div>
         <div>
-          <article id="buy-product">
-            <img>
+          <div id="buy-product">
+            <img src="assets/product.png" id="product-img">
             <h4>12,50€</h4>
             <p>Per 100 g</p>
+            <form method="GET" action="">
             <div>
-              <button>-</button>
-              <input type="text" name="quantity" placeholder="1" value="1">
-              <button>+</button>
+              <button class="add-delete delete-trick">-</button>
+              <input id="field" type="number" name="quantity" placeholder="1" value="1">
+              <button class="add-delete">+</button>
             </div>
-            <button>BUY</button>
-          </article>
+            <button type="submit" class="buy-button">Buy</button>
+          </form>
+          </div>
           <img>
         </div>
       </section>
+      <div class="separator">
       <section id="overview">
-        <article class="icon-overview">
-          <img>
-          <p></p>
-        </article>
-        <article class="icon-overview">
-          <img>
-          <p></p>
-        </article>
-        <article class="icon-overview">
-          <img>
-          <p></p>
-        </article>
-        <article class="icon-overview">
-          <img>
-          <p></p>
-        </article>
+        <div>
+          <img src="assets/organic.png">
+          <p>Certified organic cultivation</p>
+        </div>
+          <div>
+            <img src="assets/nutrients.png">
+            <p>High nutrient content</p>
+          </div>
+          <div>
+            <img src="assets/boost.png">
+            <p>Boost inmune system</p>
+          </div>
+          <div>
+            <img src="assets/vitamins.png">
+            <p>Rich in vitamines</p>
+          </div>
       </section>
+    </div><!-- full-view-->
     </div>
+    
     <section id="benefits">
-      <h2>Benefits of Goji</h2>
-      <p>These are all the benefits of Gojis. Goji will make your life better because it's awesome. It's good in so
-        many ways for you that you will like it very much. Plus it's red.</p>
+      <div id="benefits-text">
+      <h2>Pure Vitality</h2>
+      <p>We want to provide you with the highest possible concentration of nutrients . High-quality , organically-grown goji berries make this possible. Our goji berries certified organic and free of all pesticides and chemical additives.</p>
+      </div>
+      <div id="benefits-list">
+        <ul>
+          <li>Angi-aging</li>
+          <li>Lower cholesterol</li>
+          <li>Lower blood sugar</li>
+          <li>Lower cancer risk</li>
+          <li>Good for eye sight</li>
+        </ul>
+      </div>
     </section>
     <section id="origin">
       <h2>Locally sourced</h2>
       <img>
     </section>
+
   </main>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
 
 </body>
 
