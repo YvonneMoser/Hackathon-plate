@@ -10,6 +10,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -42,3 +44,187 @@ body {
 /* ---- components ---- */
 
 /* ---- css shame ---- */
+
+
+
+
+
+
+#product{
+  background: url("./assets/background.png") no-repeat;
+  background-size: 43%;
+  background-position: top;
+  background-position-x: 20%;
+  background-position-y: -10%;
+  height: 70vh;
+  width:100%;
+  max-width: 1000px;
+  margin:auto;
+
+  /* -webkit-box-shadow: -1px 2px 10px 2px rgba(168,168,168,0.81);
+  -moz-box-shadow: -1px 2px 10px 2px rgba(168,168,168,0.81);
+  box-shadow: -1px 2px 10px 2px rgba(168,168,168,0.81); */
+}
+
+.separator{
+  border:1px solid #eee;
+  height: 1px;
+}
+
+
+header{
+  font: Arial 20px bold;
+  background-color: #9C3737;
+  padding-left:5px;
+
+}
+header p{
+  margin-bottom: 0 !important;
+
+}
+
+#full-view{
+  height: 100vh;
+
+}
+
+
+
+
+#product{
+  display:flex;
+  justify-content: space-between ;
+
+}
+
+#product-max-width{
+  max-width:1000px;
+  margin:auto;
+}
+
+#buy-product{
+  margin-right:50px;
+  margin-top:5vh;
+  border-radius:15px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(168,168,168,0.81);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(168,168,168,0.81);
+  box-shadow: 0px 0px 10px 2px rgba(168,168,168,0.81);
+  display:flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  text-align:center;
+  padding:20px 40px 20px 40px;
+}
+#product-img{
+  width:100px;
+  align-self:center;
+  margin-bottom:20px;
+  margin-right: 15px;
+}
+
+.buy-button{
+  width:120px;
+  color:white;
+  background-color: #d24f4f;
+  border:0px solid transparent;
+  font-weight: bold;
+  border-radius: 20px;
+  padding:5px;
+  margin-top:5px;
+}
+
+#field{
+  border: 0px solid transparent;
+  width: 40px;
+  font-size: 25px;
+  text-align: center;
+  padding-left:10px;
+  height:40px;
+
+}
+.add-delete{
+  border: 0px solid transparent;
+  background-color:white;
+  font-size: 30px;
+  color: grey;
+}
+
+/* to trick the visual effect of looking small */
+.delete-trick{ 
+font-size: 40px;
+}
+
+
+
+#claim{
+  margin-left:50px;
+  margin-top:40vh
+}
+#claim p{
+  color:grey;
+  width:400px;
+}
+
+
+#overview {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:15px 50px;
+  max-width:1000px;
+  align-self:center;
+  margin:auto;
+
+
+}
+#overview div{
+
+  width:120px;
+  font-size:14px;
+  color: grey;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+  align-items:flex-start;
+}
+#overview div img{
+  width:80px;
+  align-self: center;
+
+
+}
+
+
+#benefits{
+  display:flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin:auto;
+  padding:20px 50px;
+
+}
+#benefits-text{
+  width:50%;
+
+}
+#benefits-list{
+  width:50%;
+}
+
+
+#benefits-list ul{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+
+
+
+}
+#benefits-list ul li{
+  padding-right: 10px;
+  padding-bottom:20px;
+  width: 50%;
+  
+
+}
