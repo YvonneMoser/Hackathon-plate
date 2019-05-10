@@ -1,12 +1,12 @@
-# Hackathon-plate 2019
+# Goji - Superfoods
 
-> Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
+##Description
+Superfood Inc is a website where you can buy different superfood. 
+On our goji landing page users can get an overview over the product and can buy the product (fresh goji berries).
 
-## How to use
+##User Stories
+- **landing page** - As a user I want to see a nice landing page, where I can see the product I am interested in and get an overview why I should by the product. As a user I also want some information about the price of the product and thy payment methods. I want to get an overview about the benefits of the product and why I should buy it on this website. I am also interested in the origin of the product. 
 
-- Fork to your github account
-- Use this file to describe your project, plan, take notes, todos, etc...
-- Have fun
 
 ### Files included:
 
@@ -14,6 +14,17 @@
   - `style.css`
   - `main.js`
 
-### Folders included:
 
-  - `./assets` (add images, fonts, etc...)
+### Git
+
+
+[Repository Link](https://github.com/YvonneMoser/Hackathon-plate)
+
+[Deploy Link]()
+
+### Slides
+
+The url to your presentation slides
+
+[Slides Link](https://docs.google.com/presentation/d/1HpurAJ1qW7gLBGWKgWVBotz-s_bz3KKCI9N5ntdRWOc/edit?usp=sharing)
+
